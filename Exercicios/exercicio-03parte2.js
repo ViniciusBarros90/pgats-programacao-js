@@ -20,19 +20,20 @@ const porte = 'P'
 
 const idadeMinima = 2
 
+//Opção com operador ternário
 const adocao = idade >= idadeMinima 
                 ? 'sim'
                 : porte === 'P' 
                 ? 'sim'
                 : 'não'
 
+//Opção com operadores lógicos               
 const adocaov2 = idade >= idadeMinima || porte === 'P'
 
 console.log(adocao)
 console.log(adocaov2)
 
 //exemplo com funcao
-
 function verificarSePodeSerAdotado(idade, porte) {
   const adocao = idade >= idadeMinima 
                 ? 'sim'

@@ -13,11 +13,11 @@ Extra: aplique uma regra com operador lógico para permitir que se o cão for de
 
   idade 1 + porte M = nao
   idade 2 + porte M = sim, pela idade
-  idade 2 + porte P = sim, pela idade
+  idade 2 + porte P = sim,ambos
   idade 1 + porte P = sim, pelo porte
 
   */
- 
+
 
 const idadeAdocao = 2
 
