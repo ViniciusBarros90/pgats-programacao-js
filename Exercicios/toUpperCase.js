@@ -10,5 +10,4 @@ console.log("A raça é " + raça.slice(0, 1).toUpperCase( ) + raça.slice(1))
 console.log("O peso é " +  peso)
 
 
-// Segunda modo de programar
 

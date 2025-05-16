@@ -25,17 +25,17 @@ const tempo = 31
 let atividade
 
 switch(porte) {
-    case "P":
-      atividade = 'Brincar dentro de casa'
-      break
-    case "M":
-      atividade = 'Caminhada no quarteirão'
-      break
-    case "G":
-      atividade = 'Correr no parque'
-      break
-    default:
-      console.log = 'Porte inválido'  
+  case "P":
+    atividade = 'Brincar dentro de casa'
+    break
+  case "M":
+    atividade = 'Caminhada no quarteirão'
+    break
+  case "G":
+    atividade = 'Correr no parque'
+    break
+  default:
+    console.log = 'Porte inválido'  
 }
 
 let mensagem 
