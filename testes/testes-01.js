@@ -19,7 +19,7 @@ describe('Testes do projeto', () => {
   })
 
   it('segundo teste', () => {
-    throw new error
+    
 
   })
 

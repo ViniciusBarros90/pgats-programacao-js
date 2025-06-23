@@ -79,7 +79,7 @@
     "mocha": "^11.2.2"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha testes/*.js"
   },
   "repository": {
     "type": "git",
